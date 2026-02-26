@@ -1,44 +1,83 @@
-<homework3.html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Homework 3: Depth of Field</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 20px;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 40px;
+      flex-wrap: wrap; /* allows wrapping on small screens */
+    }
+    .block {
+      text-align: center;
+      max-width: 300px;
+    }
+    .block img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 10px;
+    }
+    .label {
+      font-size: 15px;
+      font-weight: normal;
+    }
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Homework 3: Depth of Field
-    <p>
-  <b style="font-size:15px; font-weight:normal;">
-For Homework 3, I posted 4 JPG images total on this single page (homework3.html): a shallow depth of field photo, a deep depth of field photo, a Photoshop blur version, and the original image used for the blur comparison. All images are under 2 MB and saved in the images folder.
-</b></p>
-<body>
-  
-  <p>1 & 2: In-camera shallow vs. deep depth of field
-  <!-- Section 1 --><!-- Section 2 -->
-<div style="text-align:center; margin-bottom:40px;"><body><p style="white-space: pre-line;">
-     <b style="font-size:15px; font-weight:normal;">
-Shallow Dof</b>
-  <img src="image1.jpg" width="300">
-</div>
-<div style="text-align:center; margin-bottom:40px;"><body><p style="white-space: pre-line;">
-     <b style="font-size:15px; font-weight:normal;">
-Deep Dof</b>
-<img src="deep.jpg.CR3" alt width="300">
-<p>3 & 4: Photoshop blur vs. original image (comparison)
-<div style="text-align:center; margin-bottom:40px;"><body><p style="white-space: pre-line;">
-     <b style="font-size:15px; font-weight:normal;">
-Original Image</b>
-<img src="shallow.jpg" alt width="300">
- <div style="text-align:center; margin-bottom:40px;"><body><p style="white-space: pre-line;">
-     <b style="font-size:15px; font-weight:normal;">
-Photosop Blur</b>
-<img src="deep.jpg.CR3" alt width="300">
-  <h1></h1>
-   <P>I chose to edit this picture darker than usual because I wanted to change the emotional tone of the image. The stairway already has a slightly creepy feeling — it leads upward into an unknown area, and you can’t see what’s at the top. I tried to emphasized that sense of mystery and uncertainty.
-Lowering the brightness and deepening the shadows makes the space feel more enclosed and unsettling. Darkness often represents the unknown, fear, or tension, so the edit helps the viewer feel slightly uncomfortable or curious about what might be beyond the visible space. Also cropping it was easy because it was the only one that would look good for the 5’-7’ requirement. 
-I also wanted to show how editing choices can completely transform meaning. A brighter version of the same image might feel safe or normal, but the darker version creates suspense and emotional depth. 
 
+  <h1>Homework 3: Depth of Field</h1>
+  <p>
+    For Homework 3, I posted 4 JPG images total on this single page: a shallow depth of field photo, a deep depth of field photo, a Photoshop blur version, and the original image used for the blur comparison. All images are under 2 MB and saved in the images folder.
   </p>
-<a href="https://britanyp5.github.io/melpd150/">Back to Home</a>
 
-  <p> </p>Contact: @britany.palaguachi07@myhunter.cuny.edu
-        </p>
+  <h2>1 & 2: In-camera shallow vs. deep depth of field</h2>
+  <div class="container">
+    <div class="block">
+      <div class="label">Shallow DoF</div>
+      <img src="image1.jpg" alt="Shallow Depth of Field">
+    </div>
+    <div class="block">
+      <div class="label">Deep DoF</div>
+      <img src="deep.jpg.CR3" alt="Deep Depth of Field">
+    </div>
+  </div>
+
+  <h2>3 & 4: Photoshop blur vs. original image</h2>
+  <div class="container">
+    <div class="block">
+      <div class="label">Original Image</div>
+      <img src="shallow.jpg" alt="Original Image">
+    </div>
+    <div class="block">
+      <div class="label">Photoshop Blur</div>
+      <img src="deep.jpg.CR3" alt="Photoshop Blur">
+    </div>
+  </div>
+
+  <h2>Reflection</h2>
+  <p>
+    I chose to edit this picture darker than usual because I wanted to change the emotional tone of the image. The stairway already has a slightly creepy feeling — it leads upward into an unknown area, and you can’t see what’s at the top. I tried to emphasize that sense of mystery and uncertainty.
+    Lowering the brightness and deepening the shadows makes the space feel more enclosed and unsettling. Darkness often represents the unknown, fear, or tension, so the edit helps the viewer feel slightly uncomfortable or curious about what might be beyond the visible space. Also cropping it was easy because it was the only one that would look good for the 5’-7’ requirement.
+    I also wanted to show how editing choices can completely transform meaning. A brighter version of the same image might feel safe or normal, but the darker version creates suspense and emotional depth.
+  </p>
+
+  <a href="https://britanyp5.github.io/melpd150/">Back to Home</a>
+
+  <p>Contact: @britany.palaguachi07@myhunter.cuny.edu</p>
     </footer>
